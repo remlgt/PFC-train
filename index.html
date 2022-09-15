@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Pierre Feuille Ciseau</title>
+</head>
+<body>
+    <div class="score">
+        <p>Vous</p>
+        <p>Ordinateur</p>
+        <p id="scorePlayer">0</p>
+        <p id="scorePC">0</p>
+        <div id="reset">Recommencer</div>
+    </div>
+    <div class="action">
+        <p id="message">A vous de jouer ! </p>
+        <div id="next">Tour suivant</div>
+    </div>
+    <div class="jeu">
+        <div class="choix">
+            <div class="button btn-player" id="Pierre">
+                <img src="./img/rock.png" alt="Pierre">
+                <p>Pierre</p>
+            </div>
+            <div class="button btn-player" id="Ciseaux">
+                <img src="./img/ciseaux.png" alt="Ciseaux">
+                <p>Ciseaux</p>
+            </div>
+            <div class="button btn-player" id="Feuille">
+                <img src="./img/feuille.png" alt="Feuille">
+                <p>Feuille</p>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
